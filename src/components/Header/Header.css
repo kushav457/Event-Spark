@@ -1,0 +1,94 @@
+
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+.logo img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+menu{
+    margin-bottom: 0;
+}
+
+.nav_btns{
+    
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.nav_item a{
+    text-decoration: none;
+    color: rgb(49, 74, 92);
+    font-weight: 500;
+    font-size: 1.2rem;
+    white-space: pre;
+    
+}
+
+
+.nav_item a:hover{
+    color:rgb(6, 193, 255);
+    .submenu {
+        display: block;
+      }
+    
+    
+}
+
+.nav_item a.active_link{
+    color: var(--secondary-color);
+}
+
+.mobile_menu{
+    font-size: 1.3 rem;
+    color: var(--heading-color);
+    display: none;
+}
+
+.sticky_header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background:#ffffff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}
+
+
+
+.package{
+    white-space: pre;
+}
+
+.custom{
+ background-color: blue;
+    a:hover{
+        color: black;
+        
+    }
+}
+.custom:hover{
+    transform: translateY(-6px);
+    
+    transition:1s;
+    
+    
+    
+}
+.btn1{
+    background-color: bisque;
+
+}
+/*   ChatGpt*/
+/* Add this CSS code to your existing CSS file or component */
+
+/* Header.css */
+
+
+  
